@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fondo{
+    width: 100%;
+    height: 670px;
+    background-color: #232123;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.fondo .bomb1{
+
+background-color: #444345;
+width: 120px;
+height: 120px;
+border-radius: 70px;
+margin-top: 300px;
+position: relative;
+
+
+}
+
+.fondo .bomb2{
+    background-color: #444345;
+    width: 50px;
+    height: 60px;
+    margin-top: 260px;
+    position: absolute;
+}
+
+.fondo .bomb3{
+    background-color: black;
+    width: 50px;
+    height: 40px;
+    margin-top: 220px;
+    position: absolute;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+.fondo .bomb4{
+
+    background-color: black;
+    width: 7px;
+    height: 220px;
+    margin-top: 0px;
+    position: absolute;
+
+}
+
+.boton{
+
+    background-color: #BFBFBF;
+    width: 110px;
+    height: 110px;
+    margin-top: 100px;
+    margin-left: 1000px;
+    border-color: black 5px;
+    border-radius: 15px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boton a {
+
+background: linear-gradient(#fff, #fff, #fff, #fff, #777);
+width: 35px;
+height: 60px;
+border-color: black;
+border-radius: 12px;
+border-style: solid;
+
+
+
+}
+
+.boton .a2{
+
+background: linear-gradient(#777, #fff, #fff, #fff, #fff);
+width: 35px;
+height: 60px;
+border-color: black;
+border-radius: 12px;
+border-style: solid;
+
+}
+
+
+
+
+.luz1{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    margin-top: 300px;
+    box-shadow: 0 0 150px #fff;
+    transition: 2s ;
+    
+}
+
+.luz2{
+
+    background-color: white;
+    width: 50px;
+    height: 60px;
+    margin-top: 260px;
+    position: absolute;
+    transition: 2s;
+    
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #232123;
+    width: 100%;
+    height: 200px;
+}
+
+.footer h1{
+
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#audio{
+    display: none;
+}
+
+
